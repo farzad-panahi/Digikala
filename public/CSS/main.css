@@ -1,0 +1,13 @@
+@import "./settings.css";
+@import "./Header/header.css";
+@import "Header/header__top.css";
+@import "Header/header__center.css";
+
+/*
+@import "query/xs.css" only screen and (min-width: 340px);
+@import "query/sm.css" only screen and (min-width: 576px);
+@import "query/sm.css" only screen and (min-width: 768px);
+@import "query/sm.css" only screen and (min-width: 992px);
+@import "query/sm.css" only screen and (min-width: 1200px);
+@import "query/sm.css" only screen and (min-width: 1400px); 
+*/
