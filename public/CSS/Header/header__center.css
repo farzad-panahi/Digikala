@@ -74,7 +74,8 @@
       font-size: large;
 
       span {
-        font-family: iranyekan;
+        /* font-family: iranyekan; */
+        font-family: var(--fontfamily);
         font-size: 13px;
         color: #1b1b1b;
       }
