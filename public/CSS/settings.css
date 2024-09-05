@@ -11,10 +11,10 @@
 }
 @font-face {
   font-family: iranyekan;
-  src: url(..../fonts/fa/iranyekan/IRANYekanWeb.eot);
-  src: url(..../fonts/fa/iranyekan/IRANYekanWeb.ttf);
-  src: url(..../fonts/fa/iranyekan/IRANYekanWeb.woff);
-  src: url(..../fonts/fa/iranyekan/IRANYekanWeb.woff2);
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.eot);
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.ttf);
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.woff);
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.woff2);
 }
 
 
