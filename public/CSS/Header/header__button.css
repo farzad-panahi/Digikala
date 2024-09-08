@@ -89,6 +89,7 @@
                   justify-content: start;
                   color: black;
                   font-size: 10px;
+                  padding-right: 15px;
                 }
               }
               &:hover .nav__item__submenu__right__item__submenu {
