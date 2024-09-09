@@ -57,6 +57,9 @@
     border-radius: 7px;
     border: 1px solid #b2001a;
     box-sizing: border-box;
+    /* &:hover {
+      border: 1px solid whitesmoke;
+    } */
   }
   .register__h1__4 {
     color: #b2001a;

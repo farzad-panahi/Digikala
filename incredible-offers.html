@@ -8,6 +8,10 @@
     <title>فروشگاه اینترنتی دیجی کالا</title>
     <link rel="stylesheet" href="./public/CSS/main.css" />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
       rel="shortcut icon"
       href="./Image/icon/logo.ico"
       type="image/x-icon"
@@ -26,5 +30,360 @@
     <meta name="author" content="FP" />
     <meta name="robots" content="index,follow" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- <body> -->
+    <!--start-header-->
+    <header>
+      <!--***********************************************************************************-->
+      <!--start-header--top-->
+      <div class="header__top">
+        <a href="#"><img src="./Image/gif/header-top.gif" alt="" /></a>
+      </div>
+      <!--finish-header-top-->
+      <!--***********************************************************************************-->
+      <!--start-header-center-->
+      <div class="header__center">
+        <div class="header__center__right">
+          <a href="https://digikala.com">
+            <img src="./Image/svg/logo.svg" alt="لوگوی دیجی کالا" />
+          </a>
+        </div>
+
+        <div class="header__center__center">
+          <input type="text" name="" placeholder="جستجو" />
+          <img class="magnifying" src="./Image/svg/magnifying.svg" alt="" />
+        </div>
+
+        <div class="header__center__left">
+          <a href="login.html">
+            <div class="login">
+              <img src="./Image/svg/login.svg" alt="لاگین" />
+              <span>ورود</span>
+              <span class="seprate1"></span>
+              <span>ثبت نام</span>
+            </div>
+          </a>
+          <span class="seprate2"></span>
+          <a href="login.html">
+            <img src="./Image/svg/shoping-card.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <!--finish-header-center-->
+      <!--***********************************************************************************-->
+      <!--start-header--button-->
+      <div class="header__bottom">
+        <div class="header__bottom__right">
+          <nav class="nav">
+            <div><img src="Image/svg/bar.svg" alt="" /></div>
+            <!-- <div><img src="./  svg/bar.svg" alt="" /></div> -->
+            <!-- <div class="nav__item"></div> -->
+            <div class="nav__item">
+              <a href="#" class="nav__item__link"> دسته بندی کالاها </a>
+              <div class="nav__item__submenu">
+                <div class="nav__item__submenu__right">
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="./Image/svg/ketabvatahrir.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>کتاب، لوازم تحریر و هنر</div></a
+                    >
+                    <div
+                      class="nav__item__submenu__right__item__submenu active"
+                    >
+                      <div><h1>کتاب و مجله</h1></div>
+                      <div><h1>لوازم تحریر</h1></div>
+                      <div><h1>آلات موسیقی</h1></div>
+                      <div><h1>صنایع دستی</h1></div>
+                    </div>
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""><img src="./Image/svg/mobile.svg" alt="" /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>موبایل</div></a
+                    >
+                    <div class="nav__item__submenu__right__item__submenu">
+                      <div><h1>برند های مختلف گوشی موبایل</h1></div>
+                      <div><h1>گوشی بر اساس قیمت</h1></div>
+                      <div><h1>لوازم جانبی موبایل</h1></div>
+                      <div><h1>داغ ترین ها</h1></div>
+                    </div>
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/kalayedigital.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>کالای دیجیتال</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/khaneashpazkhane.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>خانه و آشپزخانه</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/lavazemkhanegibarghi.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>لوازم خانگی و برقی</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""><img src="Image/svg/modoposhak.svg" alt="" /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>مد و پوشاک</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/talaonoghre.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>طلا و نقره</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/arayeshibehdashti.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>آرایشی و بهداشتی</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/tajhizatpezehki.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>تجهیزات پزشکی و سلامت</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/khodrovamotor.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>خودرو و موتور سیکلت</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""><img src="Image/svg/abzaralat.svg" alt="" /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>ابزار آلات و تجهیزات</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/varzeshvasafar.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>ورزش و سفر</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""><img src="Image/svg/karthadieh.svg" alt="" /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>کارت هدیه و گیفت کارت</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/kalayekhoraki.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>کالای خوراکی و اساسی</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""><img src="Image/svg/asbabbazi.svg" alt="" /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>اسباب بازی، کودک و نوزاد</div></a
+                    >
+                  </div>
+
+                  <div class="nav__item__submenu__right__item">
+                    <a href=""
+                      ><img src="Image/svg/mahsolatbomi.svg" alt=""
+                    /></a>
+                    <a href="" class="nav__item__submenu__right__item"
+                      ><div>محصولات بومی و محلی</div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div><span class="seprate"></span></div>
+
+            <div>
+              <a href="./incredible-offers.html">
+                <img src="Image/svg/shegeft.svg" alt="" />
+                شگفت انگیزها
+              </a>
+            </div>
+
+            <div>
+              <a href="#">
+                <img src="Image/svg/bag.svg" alt="" />
+                سوپر مارکت
+              </a>
+            </div>
+
+            <div>
+              <a href="#">
+                <img src="Image/svg/goftcard.svg" alt="" />
+                کارت هدیه
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="Image/svg/porforosh.svg" alt="" />
+                پرفروش ترین ها
+              </a>
+            </div>
+
+            <div>
+              <a href="#">
+                <img src="Image/svg/takhfif.svg" alt="" />
+
+                تخفیف ها و پیشنهاد ها
+              </a>
+            </div>
+
+            <div><span class="seprate"></span></div>
+            <div><a href="#">سوالی دارید؟</a></div>
+            <div><a href="#">در دیجی کلا بفروشید!</a></div>
+          </nav>
+        </div>
+        <div class="header__bottom__left">
+          <div><img src="Image/svg/mylocation.svg" alt="" /></div>
+          <div><span>لطفا شهر خود را انتخاب کنید </span></div>
+        </div>
+        <!-- <div class="category__submenu"></div> -->
+      </div>
+      <!--finish-header-button-->
+      <!--***********************************************************************************-->
+    </header>
+    <!--finish-header-->
+    <div class="body1"><h1>پیشنهاد شگفت انگیز</h1></div>
+    <!--start-swipper-->
+    <div class="slider-incredible">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./Image/incredible-slider/01.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./Image/incredible-slider/02.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </div>
+    <!--end-swipper-->
+    <!--start-swipper2-->
+    <div class="swiper2">
+
+<div>
+  <img src="./Image/svg/logoshegeft.svg" alt="">
+  
+</div>
+
+
+
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     
+      <script>
+        var swiper = new Swiper(".mySwiper2", {
+          slidesPerView: 1,
+          spaceBetween: 1,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          // navigation: {
+          //   nextEl: ".swiper-button-next",
+          //   prevEl: ".swiper-button-prev",
+          // },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 2.3,
+              spaceBetween: 2,
+            },
+          },
+        });
+      </script>
+      <!--end-swipper2-->
+    </div>
+  </body>
 </html>

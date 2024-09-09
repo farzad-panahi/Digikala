@@ -1,0 +1,36 @@
+.story {
+  /* width: 75%; */
+  width: 100%;
+  height: 170px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+  .story__center {
+    width: 1440px;
+    height: inherit;
+    background-color: black;
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
