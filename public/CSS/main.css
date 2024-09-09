@@ -1,8 +1,8 @@
-@import "./settings.css";
-@import "./Header/header.css";
-@import "./Header/header__top.css";
-@import "./Header/header__center.css";
-@import "./Header/header__button.css";
+@import "settings.css";
+@import "Header/header.css";
+@import "Header/header__top.css";
+@import "Header/header__center.css";
+@import "Header/header__button.css";
 @import "./login.css";
 @import "./incredible-offers.css";
 @import "./story.css";
