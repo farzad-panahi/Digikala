@@ -4,10 +4,9 @@
 @import "Header/header__center.css";
 @import "Header/header__button.css";
 @import "./login.css";
-@import "incredible-offers.css";
-@import "story.css";
-@import "swiper__home_1.css";
-
+@import "./incredible-offers.css";
+@import "./story.css";
+@import "./swiper__home_1.css";
 
 /*
 @import "query/xs.css" only screen and (min-width: 340px);
