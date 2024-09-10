@@ -14,13 +14,13 @@
       type="image/x-icon"
     />
 
-    <!--
+     
     <link
       rel="stylesheet"
       href="public/CSS/query/xs.css"
       media="only screen and (min-width: 340px)"
     />
-    -->
+    
 
     <meta name="keywords" content="فروشگاه , دیجی کالا" />
     <meta name="description" content="خرید اینترنتی کالا" />
@@ -284,32 +284,37 @@
     </header>
     <!--finish-header-->
     <div class="body1"><h1>پیشنهاد شگفت انگیز</h1></div>
-    <!--start-swipper-->
+   
+
     <div class="slider-incredible">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+          <div data-hash="slide1" class="swiper-slide">
             <img src="./Image/incredible-slider/01.jpg" alt="" />
           </div>
-          <div class="swiper-slide">
+          <div data-hash="slide1" class="swiper-slide">
             <img src="./Image/incredible-slider/02.jpg" alt="" />
           </div>
+   
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
       </div>
 
+      <!-- Swiper JS -->
       <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
       <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
 
-
+      <!-- Initialize Swiper -->
       <script>
         var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 30,
-          centeredSlides: true,
+          spaceBetween: 0,
+          hashNavigation: {
+            watchState: true,
+          },
           autoplay: {
-            delay: 4000,
+            delay: 5000,
             disableOnInteraction: false,
           },
           pagination: {
@@ -323,62 +328,9 @@
         });
       </script>
     </div>
-    <!--end-swipper-->
-    <!--start-swipper2-->
-    <div class="swiper2">
-      <div>
-        <img src="./Image/svg/logoshegeft.svg" alt="" />
-      </div>
-
-      <div class="swiper mySwiper2">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
-        </div>
-        <!-- <div class="swiper-pagination"></div> -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-
-      <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-      <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
-
-      <script>
-        var swiper = new Swiper(".mySwiper2", {
-          slidesPerView: 1,
-          spaceBetween: 1,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          // navigation: {
-          //   nextEl: ".swiper-button-next",
-          //   prevEl: ".swiper-button-prev",
-          // },
-          breakpoints: {
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 4,
-              spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 2.3,
-              spaceBetween: 2,
-            },
-          },
-        });
-      </script>
-      <!--end-swipper2-->
+    
     </div>
+
+    
   </body>
 </html>
