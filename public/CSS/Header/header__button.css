@@ -39,6 +39,7 @@
           display: none;
           right: 130px;
           top: 40px;
+          z-index: 9999;
 
           .nav__item__submenu__right {
             padding-top: 10px;
