@@ -7,7 +7,7 @@
   align-items: center;
   flex-flow: row wrap;
 
-  /* margin-top: 20px; */
+  margin-bottom: 10px;
 
   .under__slider__center {
     width: 70%;
@@ -28,6 +28,7 @@
       img {
         width: 52px;
         height: 52px;
+        cursor: pointer;
       }
 
       p {
@@ -36,6 +37,7 @@
         width: 70px;
         line-height: 20px;
         text-align: center;
+        cursor: pointer;
       }
     }
   }

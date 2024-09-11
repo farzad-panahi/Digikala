@@ -17,6 +17,13 @@
   src: url(../../fonts/fa/iranyekan/IRANYekanWeb.woff2);
 }
 
+@font-face {
+  font-family: b-nazanin;
+  src: url(../../fonts/fa/b-nazanin/BNazanin.ttf);
+  
+  
+}
+
 .swiper-rtl .swiper-button-next {
   width: 35px;
   height: 35px;

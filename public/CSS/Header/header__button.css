@@ -168,7 +168,7 @@
   }
   ::-webkit-scrollbar-thumb {
     width: 11px;
-    background-color: rgb(212, 78, 105);
+    background-color: #A8A8A8;
   }
   .active {
     display: flex !important;

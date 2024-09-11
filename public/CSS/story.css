@@ -41,6 +41,7 @@
           object-fit: cover;
           outline: 2px solid  blueviolet;
           outline-offset: 2px;
+          cursor: pointer
         }
 
         p {
@@ -48,6 +49,7 @@
           font-family: iranyekan;
           font-size: 11px;
           line-height: 20px;
+          cursor: pointer
         }
       }
     }
