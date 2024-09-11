@@ -54,6 +54,6 @@
 }
 
 .swiper-button-next.swiper-button-disable,
-.swiper-button-prev.swiper-button-disable {
+.swiper-button-prev.swiper-button-disableو.swiper-button-prev {
   opacity: 0;
 }

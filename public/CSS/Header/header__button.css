@@ -25,22 +25,30 @@
       font-size: 12px;
       flex-flow: row wrap;
       column-gap: 15px;
+
       .nav__item {
+        &:hover .nav__item__submenu {
+       display: block;
+     }
         .nav__item__link {
           font-weight: bold;
           font-size: 14px;
           color: #2b2b2b !important;
+          /* height: inherit; */
         }
         .nav__item__submenu {
           width: 60vw;
           height: 70vh;
           background-color: rgb(240, 239, 239);
-          position: absolute;
           display: none;
+          position: absolute;
           right: 130px;
           top: 40px;
+          /* position: relative; */
+          /* right: 130px;
+          top: 40px; */
           z-index: 9999;
-
+          
           .nav__item__submenu__right {
             padding-top: 10px;
             width: 18%;
@@ -102,9 +110,9 @@
             }
           }
         }
-        &:hover .nav__item__submenu {
+        /* &:hover .nav__item__submenu {
           display: block;
-        }
+        } */
       }
       div {
         width: fit-content;
