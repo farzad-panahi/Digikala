@@ -9,12 +9,9 @@
 @import "swiper__home_1.css";
 @import "node_modules/swiper/swiper-bundle.min.css";
 @import "under_slider.css";
-@import "wonderfull__offer.css"; 
-
-
-
-
-
+@import "wonderfull__offer.css";
+@import "wonderfull-supermarket.css";
+@import "under-supermarket.css";
 
 /*
 @import "query/xs.css" only screen and (min-width: 340px);

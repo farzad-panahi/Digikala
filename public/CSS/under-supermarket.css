@@ -1,0 +1,15 @@
+
+.under-supermarket{
+
+
+
+    width: 70%;
+      height: 240px;
+      background-color: gray;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-between;
+      
+
+
+}
