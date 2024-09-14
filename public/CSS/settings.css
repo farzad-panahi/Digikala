@@ -24,6 +24,18 @@
   
 }
 
+@font-face {
+  font-family: iransans;
+  src: url(../../fonts/fa/iransans/IRANSans.ttf);
+  src: url(../../fonts/fa/iransans/IRANSans_Bold.ttf);
+  src: url(../../fonts/fa/iransans/IRANSans_Light.ttf);
+  src: url(../../fonts/fa/iransans/IRANSans_Medium.ttf);
+  src: url(../../fonts/fa/iransans/IRANSans_UltraLight.ttf);
+  
+  
+  
+}
+
 .swiper-rtl .swiper-button-next {
   width: 35px;
   height: 35px;

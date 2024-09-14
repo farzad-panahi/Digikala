@@ -5,11 +5,22 @@
 
     width: 70%;
       height: 240px;
-      background-color: gray;
+      /* background-color: gray; */
       border-radius: 15px;
       display: flex;
       justify-content: space-between;
-      
+      column-gap: 5px;
+    
+      .under-supermarket-item{
+        /* width: 20%; */
+       
+        a{
+          img{
+            width: 320px;
+            border-radius: 15px;
+          }
+        }
+      }
 
 
 }

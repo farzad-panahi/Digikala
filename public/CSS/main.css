@@ -12,6 +12,10 @@
 @import "wonderfull__offer.css";
 @import "wonderfull-supermarket.css";
 @import "under-supermarket.css";
+@import "buy__category.css";
+@import "under__buy__category.css";
+@import "mahbobtarin.css";
+@import "grid.css";
 
 /*
 @import "query/xs.css" only screen and (min-width: 340px);

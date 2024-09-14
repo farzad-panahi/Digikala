@@ -1,0 +1,26 @@
+.under__buy__category {
+  width: 70%;
+  height: 260px;
+  margin: 20px 0px;
+  /* background-color: crimson; */
+  display: flex;
+  flex-flow: co wrap;
+  justify-content: center;
+  column-gap: 20px;
+
+
+  .under__buy__category__item {
+    width: 100%;
+a{
+    width: 100%;
+
+img{
+    width: inherit;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+}
+
+}
+}

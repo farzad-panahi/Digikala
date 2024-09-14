@@ -94,31 +94,31 @@
             background-color: #d32f2f;
             border-radius: 10px;
             font-family: b-nazanin;
-            span{
-                font-size: 14px;
-                font-weight: bold;
-                color: whitesmoke;
-                line-height: 20px;
+            span {
+              font-size: 14px;
+              font-weight: bold;
+              color: whitesmoke;
+              line-height: 20px;
             }
           }
           .center {
             span {
-                font-family: b-nazanin;
-                font-weight: bold;
+              font-family: b-nazanin;
+              font-weight: bold;
             }
           }
-          .left{
-            img{
-                width: 16px;
-                height: 16px;
+          .left {
+            img {
+              width: 16px;
+              height: 16px;
             }
           }
         }
-        .row4{
-            text-decoration: line-through;
-            color: gray;
-            font-size: 18px;
-            font-family: b-nazanin;
+        .row4 {
+          text-decoration: line-through;
+          color: gray;
+          font-size: 18px;
+          font-family: b-nazanin;
         }
       }
 
