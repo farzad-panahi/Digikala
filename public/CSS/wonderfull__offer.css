@@ -77,6 +77,22 @@
         h3 {
           font-size: 12px;
           font-family: iranyekan;
+          
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp:2;
+          overflow: hidden;
+
+
+          
+          
+          width: 120px;
+
+
+
+
+          
+          box-orient: vertical;
           color: gray;
           text-align: right;
           line-height: 22px;

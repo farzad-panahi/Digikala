@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+
 :root {
   --fontfamily: iranyekan;
 }
@@ -75,6 +76,12 @@
 .swiper-button-next.swiper-button-disable,
 .swiper-button-prev.swiper-button-disableو.swiper-button-prev {
   opacity: 0;
+}
+
+.next{
+  width: 70%;
+  height: 200px;
+  background-color:rgb(245, 167, 138);
 }
 
 
