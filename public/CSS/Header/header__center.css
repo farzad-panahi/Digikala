@@ -3,6 +3,9 @@
   height: 69px;
   display: flex;
   flex-flow: row wrap;
+  /* position: fixed;
+  top: 61px;
+  z-index: 101; */
 
   .header__center__right {
     /* width=266px */

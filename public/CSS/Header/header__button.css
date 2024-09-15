@@ -5,6 +5,9 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  /* position: fixed;
+  top: 130px;
+  z-index: 102; */
 
   .header__bottom__right {
     width: 83%;

@@ -225,30 +225,193 @@
         }
       }
     }
-      .section5__left {
-        width: 80%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        flex-flow: row wrap;
-        /* column-gap: 20px; */
-        padding-left: 20px;
+    .section5__left {
+      width: 80%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      flex-flow: row wrap;
+      /* column-gap: 20px; */
+      padding-left: 20px;
 
-        .section5__left__item {
-            display: flex;
-            column-gap: 20px;
-            img{
-                width: 142px;
-                height: 44px;
-                
-            }
-            .img4{
-                width: 42px;
-                height: 44px;
-                background-color: #FFFFFF;
-                border-radius: 7px;
-            }
+      .section5__left__item {
+        display: flex;
+        column-gap: 20px;
+        img {
+          width: 142px;
+          height: 44px;
+        }
+        .img4 {
+          width: 42px;
+          height: 44px;
+          background-color: #ffffff;
+          border-radius: 7px;
         }
       }
+    }
+  }
+  .section6 {
+    width: 85%;
+    height: 245px;
+    /* background-color: rgb(245, 215, 220); */
+    margin: 40px auto;
+    border-top: 0.5px solid lightgray;
+    border-bottom: 0.5px solid lightgray;
+    display: flex;
+    padding: 20px;
+
+    .section6__right {
+      width: 70%;
+      height: initial;
+      /* background-color: #81858b; */
+      
+      h1{
+        font-family: iranyekan;
+        font-size: 20px;
+        color: #878a96;
+        font-weight: lighter;
+        }
+        h2{
+        padding-top: 15px;
+          font-family: iranyekan;
+        font-size: 11px;
+        color: #878a96;
+        font-weight: lighter;
+        }
+        h3{
+        padding-top: 15px;
+          font-family: iranyekan;
+        font-size: 10px;
+        color: #b0b3bd;
+        font-weight: lighter;
+        }
+        h4{
+        padding-top: 15px;
+          font-family: iranyekan;
+        font-size: 10px;
+        color: #d3d5dd;
+        font-weight: lighter;
+        }
+        div{
+          padding-top: 10px;
+          display: flex;
+          align-items: center;
+
+          a{
+              font-family: iranyekan;
+              font-size: 12px;
+              color: #19bfd3;
+              line-height: 8px;
+          }
+          img{
+            svg{
+
+              color: #19bfd3;
+            }
+          }
+        }
+
+
+
+
+
+
+
+
+    }
+    .section6__left {
+      width: 30%;
+      height: initial;
+      /* background-color: lightcyan; */
+      display: flex;
+      column-gap: 10px;
+      justify-content: end;
+      align-items: top;
+      margin-top: 20px;
+      padding-left: 10px;
+      div {
+        width: 109px;
+        height: 109px;
+        border: 1px solid #acb0b6;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 75px;
+          height: 75px;
+          object-fit: contain;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .section7 {
+    width: 85%;
+    height: 50px;
+    /* background-color: burlywood; */
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+
+    div {
+      font-family: iranyekan;
+      font-size: 11px;
+      color: #81858b;
+    }
+  }
+  .section8 {
+    width: 100%;
+    height: 160px;
+    background-color: #f0f0f1;
+    .section8__item {
+      width: 85%;
+      height: inherit;
+      margin: auto;
+      background-color: #c4c4c7;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      column-gap: 1px;
+      row-gap: 1px;
+
+      .line1 {
+        width: 201px;
+        height: 80px;
+        background-color: #f0f0f1;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        a {
+          img {
+            width: 120px;
+            height: 20px;
+            object-fit: contain;
+          }
+        }
+      }
+
+      .line2 {
+        width: 230px;
+        height: 80px;
+        background-color: #f0f0f1;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        a {
+          img {
+            width: 120px;
+            height: 20px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
   }
 }
