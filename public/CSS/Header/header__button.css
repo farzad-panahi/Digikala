@@ -30,6 +30,8 @@
       column-gap: 15px;
 
       .nav__item {
+        width: fit-content;
+        height: inherit;
         &:hover .nav__item__submenu {
        display: block;
      }
@@ -43,6 +45,7 @@
           width: 60vw;
           height: 70vh;
           background-color: rgb(240, 239, 239);
+          
           display: none;
           position: absolute;
           right: 130px;
@@ -63,7 +66,7 @@
             color: #767981;
             overflow: scroll;
             direction: ltr;
-
+            
             .nav__item__submenu__right__item {
               width: 100%;
               height: 50px;
@@ -75,6 +78,7 @@
               transition: 300ms;
               line-height: 50px;
               direction: rtl;
+              /* background-color: #ffffff; */
 
               &:hover {
                 background-color: whitesmoke;
@@ -83,14 +87,15 @@
               .nav__item__submenu__right__item__submenu {
                 width: 82%;
                 height: 100%;
-                background-color: lightcoral;
+                /* background-color: lightcoral; */
                 position: absolute;
                 left: 0;
                 top: 0;
                 display: flex;
-
+                background-color: #ffffff;
                 flex-flow: row wrap;
                 justify-content: space-between;
+                
                 column-gap: 1px;
                 display: none;
 
@@ -100,11 +105,29 @@
                   padding-top: 20px;
                   padding-right: 30px;
                   background-color: whitesmoke;
+                  background-color: #ffffff;
                   display: flex;
                   justify-content: start;
                   align-items: start;
-                  color: black;
-                  font-size: 10px;
+                  column-gap: 15px;
+                  color: rgb(92, 89, 89);
+                  font-size: 8px;
+
+                  span{
+                    width: 2px;
+                    height: 16px;
+                    background-color: red;
+                    margin-top: 16px;
+                  }
+                  h1{
+
+                  }
+                  img{
+                    width: 16px;
+                    height: 16px;
+                    margin-top: 16px;
+                    
+                  }
                 }
               }
               &:hover .nav__item__submenu__right__item__submenu {
