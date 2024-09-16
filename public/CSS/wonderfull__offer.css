@@ -105,16 +105,20 @@
           align-items: center;
 
           .right {
-            width: 30px;
-            height: 20px;
+            width: 33px;
+            height: 23px;
             background-color: #d32f2f;
             border-radius: 10px;
             font-family: b-nazanin;
+            
             span {
+              height: 20px;
+              
               font-size: 14px;
               font-weight: bold;
               color: whitesmoke;
               line-height: 20px;
+              
             }
           }
           .center {
